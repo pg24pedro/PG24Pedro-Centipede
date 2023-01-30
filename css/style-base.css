@@ -1,0 +1,83 @@
+@font-face { font-family: Pixeboy; src: url('../assets/pixeboy-font/Pixeboy-z8XGD.ttf'); }
+@font-face { font-family: Pixeboy; font-weight: bold; src: url('../assets/pixeboy-font/Pixeboy-z8XGD.ttf');}
+
+.page-body
+{
+    background-color: black;
+    font-family: Pixeboy;
+    color: white;
+    margin-left: 175px;
+}
+
+.centipide-title
+{
+    position: relative;
+    margin-top : 0px;
+    background-color: black;
+}
+
+.centipide-title h1
+{
+    
+    text-align: center;
+    font-size: 100px;
+}
+
+.sidebar
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 17, 255, 0.541);
+}
+
+.sidebar a
+{
+    padding: 16px;
+    font-size: 50px;
+    display: block;
+}
+
+.game-container
+{
+    background-image: url(../assets/old-tv.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+}
+
+.game-canvas
+{
+    height: 600px;
+}
+
+
+.outside-canvas
+{
+    height: 550px;
+}
+
+.page-footer
+{
+    padding-top: 30px;
+    font-family: Pixeboy;
+    font-size: 25px;
+    color: white;
+}
+
+.about-content
+{
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.about:after
+{
+    content:"";
+    display: table;
+    clear: both;
+}
