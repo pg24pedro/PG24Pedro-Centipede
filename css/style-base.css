@@ -44,12 +44,18 @@
     background-image: url(../assets/old-tv.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 75%;
+    background-size: 60%;
+    height: 600px;
+    
 }
 
 .game-canvas
 {
-    height: 600px;
+    position: relative;
+    left: 25.5%;
+    top: 21%;
+    height: auto;
+    width: auto;
 }
 
 
@@ -66,18 +72,46 @@
     color: white;
 }
 
-.about-content
+.about
 {
-    font-size: 20px;
-    float: left;
-    width: 50%;
-    text-align: center;
-    
+    column-count: 2;
 }
+
+.collapsible
+{
+    background-color: rgba(137, 43, 226, 0.63);
+    color:rgb(255, 255, 255);
+    margin-top: 30px;
+    font-family: Pixeboy;
+    cursor:pointer;
+    padding:20px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    font-size: 1.2em;
+    display: inline;
+}
+
+.active, .collapsible:hover
+{
+    background-color: rgba(231, 5, 252, 0.63);
+}
+
+
 
 .about:after
 {
     content:"";
     display: table;
     clear: both;
+}
+
+.about-centipide
+{
+    font-size: 25px;
+}
+
+.about-author
+{
+    font-size: 25px;
 }
