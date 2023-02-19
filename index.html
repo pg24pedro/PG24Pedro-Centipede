@@ -23,11 +23,12 @@
         </div>
         <div class="content">
             <main class="page-main">
-                <div class="game-container">
-                    <canvas class="game-canvas">
-                        <canvas></canvas>
-                    </canvas>
-                </div>
+                <section id="splash-screen" class="border">
+                    <div id="game">
+                        <canvas class="game-canvas"></canvas>
+                        <!--Game goes here-->
+                    </div>
+                </section>
                 <div class="about">
                     <div class="about-content">
                         <h2>About Centipide</h2>
@@ -47,11 +48,15 @@
                     </div>
                 </div>
             </main>
+            <img src="./assets/ship.png" hidden class="playerImg">
+            <img src="./assets/grass.png" hidden class="bckgImg">
             <footer class="page-footer">
                 Copyright &copy 2023, Pedro Enrique Perez Navarro
             </footer>
         </div>
-        <script type="module" src="./index.js"></script>
 
+        <!--<script type="module" src="/HTML-AS2/scripts/Game.js"></script>-->
+        <script src="./index.js" type="module"></script>
+        
     </body>
 </html>

@@ -41,22 +41,18 @@
 
 .game-container
 {
-    background-image: url(../assets/old-tv.png);
+    /*background-image: url(../assets/old-tv.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: 75%;
 }
 
-.game-canvas
+#game
 {
-    height: 600px;
+    height: 400px;
 }
 
 
-.outside-canvas
-{
-    height: 550px;
-}
 
 .page-footer
 {
@@ -80,4 +76,28 @@
     content:"";
     display: table;
     clear: both;
+}
+
+.button
+{
+    background-color:lightgrey;
+    border: 3px solid gray;
+    border-bottom: 4px solid slategray;
+    border-right: 4px solid slategray;
+    border-radius: 4px;
+    color: black;
+    font-weight:700;
+    text-align: center;
+}
+
+.game-canvas
+{
+    /*background-image: url("/HTML-AS2/assets/grass.png");*/
+    position: relative;
+    height: 400px;
+    width: 850px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(105, 105, 105);
 }
