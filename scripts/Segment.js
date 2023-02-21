@@ -7,7 +7,7 @@ export default class Segment
         this.y = y + this.radius;
         this.color = "blue";
         this.xAccel = 1;
-        this.health = 10;
+        this.health = 1 ;
     }
 
     draw(ctx)

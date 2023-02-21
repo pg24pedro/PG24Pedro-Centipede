@@ -6,22 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Centipide">
         <link rel="stylesheet" type="text/css" href="./css/style-base.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
-    <body class="page-body">
-        <header class="centipide-title">
-            <h1>Centipide</h1>
-        </header>
-        <div class = "sidebar">
-            <nav>
-                <aside>
-                    <a href="page1.hmtml">Page 1</a>
-                    <a href="page2.hmtml">Page 2</a>
-                    <a href="page3.hmtml">Page 3</a>
-                    <a href="page4.hmtml">Page 4</a>
-                </aside>
-            </nav>
+    <body class="page-body"> 
+        <div class="sidebar">
+            <a href="https://en.wikipedia.org/wiki/Centipede_(video_game)" target="blank">More about Centipede</a>
+            <a href="https://narezpeter.wixsite.com/website?fbclid=IwAR3pQL1v8dxmHGOqdrnBgFHXZ63NOHphVTxR4_QiXq9wqVuZdt_32q0jbjA"  target="blank">More about my work</a>
+            <a href="https://www.youtube.com/watch?v=G7RgN9ijwE4&ab_channel=mrblueangeldood" target="blank">Mistery Link</a>
         </div>
         <div class="content">
+            <header class="centipide-title">
+                <h1>Centipide</h1> 
+            </header>
             <main class="page-main">
                 <section id="splash-screen" class="border">
                     <div id="game">
@@ -30,26 +26,37 @@
                     </div>
                 </section>
                 <div class="about">
-                    <div class="about-content">
-                        <h2>About Centipide</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            In imperdiet ornare eros in ornare. Vestibulum est nibh, porttitor non lorem quis, rutrum congue mauris. 
-                            Cras nisi sem, posuere eget tempus ut, euismod vel turpis. Pellentesque ut ex ac nunc volutpat ultrices eu sed mauris. 
-                            Suspendisse lectus turpis, placerat ut facilisis sed, accumsan sit amet enim. Morbi porta tempor lorem, id faucibus mi accumsan et. 
+                    <button class="collapsible">About Centipide</button>
+                    <div class="collaps-content">
+                    <p>Arow keys + space to play!</p>
+                            <p>Centipede is a fixed shoooter arcade game developed by Atari in 1981. It was one of the most 
+                            commercially successful games of the 80's and set new industry standards by being one of the fisrt
+                            games to implement color graphics. It was available on arcade machines, Atari 2600, Atari 5200, 
+                            Atari 7800 and even on the Apple II and Commodore 64. It had a great reception by the audience 
+                            (specially female) and also was one of the first games to have a female co-creator: Dona Bailey
+                            alongside Ed Logg.
                         </p>             
                     </div>
-                    <div class="about-content">
-                        <h2>About Author</h2>
-                        <p>Mauris ornare a sapien vitae suscipit. 
-                            Aenean cursus quis erat eu semper. Proin et arcu lobortis, scelerisque nisl vel, mattis justo. 
-                            Curabitur in facilisis massa. Suspendisse rutrum porttitor lacus ut gravida. Maecenas id sem nulla. 
-                            Vestibulum aliquam sed massa eget euismod. Morbi ante risus, sodales a consectetur et, tincidunt accumsan nulla. 
+                    <button class="collapsible">About Author</button>
+                    <div class="collaps-content">
+                        <p>Hi! My name is Pedro Enrique Perez, I was born in Mexico City back in February the 4th, 1998.
+                            If there are two things I've loved all my life are Music and Videogames. I studied
+                            audio engineering, worked as a music producer and recording engineer and now I'm very happy to be
+                            studing Programming for Games, Web & Mobile at VFS. I'm amazed on how much I have learned in 
+                            just 2 months and I'm looking forward to the next challanges! In the meantime, here's my
+                            broken tribute to the vintage game: "Centipede". Enjoy!  (Btw, original soundtrack made by yours trully.)
                         </p>
                     </div>
+
                 </div>
             </main>
             <img src="./assets/ship.png" hidden class="playerImg">
             <img src="./assets/grass.png" hidden class="bckgImg">
+            <img src="./assets/mushroom.png" hidden class="mushImg">
+
+            <button class="playpausebtn"> PLAY | PAUSE MUSIC </button>
+            <button class="mutebtn"> MUTE MUSIC </button>
+
             <footer class="page-footer">
                 Copyright &copy 2023, Pedro Enrique Perez Navarro
             </footer>

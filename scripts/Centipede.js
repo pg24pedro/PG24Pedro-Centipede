@@ -52,12 +52,11 @@ export default class Centipede
 
 
     
-    move(width,height)
+    move(width,height,direction)
     {
         this.segments.forEach(segment=>{
-            segment.x += segment.xAccel;
-            if(segment.x < segment.radius || segment.x > width-segment.radius + 2){
-                
+            segment.x += segment.xAccel*direction;
+            if(segment.x < segment.radius || segment.x > width-segment.radius + 2){  
                 this.drop(segment,height);
             }
              

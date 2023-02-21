@@ -21,9 +21,9 @@ export default class Bullet
 
     collideWith(sprite)
     {
-        if(this.x < sprite.x + sprite.width &&
+        if(this.x < sprite.x + sprite.radius &&
             this.x + this.width > sprite.x &&
-            this.y < sprite.y + sprite.height &&
+            this.y < sprite.y + sprite.radius &&
             this.y + this.height > sprite.y)
             {
                 sprite.takeDamage(this.damage);
